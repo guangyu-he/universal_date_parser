@@ -5,19 +5,17 @@ with open('README.md') as fh:
 
 setup(
     name="universal_date_parser",
-    version="0.0.1",
+    version="0.0.2",
     author="Guangyu He",
     author_email="me@heguangyu.net",
     description="A universal date parser to parse any kind of (possible) date strings.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/guangyu-he/universal_date_parser",
-    install_requires=[
-        "pandas>=1.5.3",
-    ],
+    install_requires=[],
     packages=find_packages(exclude=("tests",)),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 3 - Alpha",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
     ],

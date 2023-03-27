@@ -1,4 +1,4 @@
-# universal date parser
+# Universal Date Parser
 
 an universal date parser for python, which can parse date string from different formats and localization (including
 Excel dates) into datetime object and more.
@@ -14,7 +14,7 @@ pip install git+https://github.com/guangyu-he/universal_date_parser
 ### via PyPI
 
 ```bash
-pip install universal_date_parser
+pip install universal-date-parser
 ```
 
 ## Usage
@@ -24,20 +24,21 @@ pip install universal_date_parser
 
 ## Arguments
 
-- date_in_str: the date string to be parsed
-- date_format (optional): the format of the date string, default is "guess", which means it will guess the format
+- **date_in_str**: the date string to be parsed
+- **date_format** (optional): the format of the date string, default is "guess", which means it will guess the format
     - "guess": guess the format
     - others: date formats supported by datetime.strptime()
-- locale (optional): the locale of the date string, default is None, which means it will guess the localization format
+- **locale** (optional): the locale of the date string, default is None, which means it will guess the localization
+  format
 
 ## Methods
 
-- to_datetime(): return datetime object
-- to_date(): return date object
-- to_time(): return time object
-- to_date_str(date_format): return date string, by default, the format is "YYYY-MM-DD"
-- to_str(date_format): return the date time string, by default, the format is "YYYY-MM-DD HH:MM:SS"
-- to_timestamp(): return the timestamp object
+- **to_datetime**(): return datetime object
+- **to_date**(): return date object
+- **to_time**(): return time object
+- **to_date_str**(_date_format_): return date string, by default, the format is "YYYY-MM-DD"
+- **to_str**(_date_format_): return the date time string, by default, the format is "YYYY-MM-DD HH:MM:SS"
+- **to_timestamp**(): return the timestamp object
 
 ## Examples
 
@@ -80,7 +81,13 @@ print(a.to_date_str())
 
 #### initial upload
 
-first version
+- first version
+
+### v0.0.2
+
+#### update
+
+- description and setup updates
 
 ## Support
 
