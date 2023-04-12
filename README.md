@@ -89,6 +89,12 @@ print(a.to_date_str())
 
 - description and setup updates
 
+### v0.0.2.1
+
+#### bug fix
+
+- fix long desc error in setup.py while installing 
+
 ## Support
 
 feel free to check source code in <a href="https://github.com/guangyu-he/universal_date_parser">GitHub</a>, you are

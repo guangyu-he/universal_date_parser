@@ -1,11 +1,13 @@
 from setuptools import setup, find_packages
+from pathlib import Path
 
-with open('README.md') as fh:
-    long_description = fh.read()
+this_directory = Path(__file__).parent
+with open(this_directory / "README.md", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
     name="universal_date_parser",
-    version="0.0.2",
+    version="0.0.2.1",
     author="Guangyu He",
     author_email="me@heguangyu.net",
     description="A universal date parser to parse any kind of (possible) date strings.",
